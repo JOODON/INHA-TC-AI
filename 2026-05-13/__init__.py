@@ -28,7 +28,7 @@ def get_top_30_stocks():
         return []
 
 if __name__ == "__main__":
-    print("\n--- 🚀 [단독 실행 테스트] 실시간 거래상위 Top 30 ---")
+    print("\n--- [단독 실행 테스트] 실시간 거래상위 Top 30 ---")
     stocks = get_top_30_stocks()
     if stocks:
         for i, s in enumerate(stocks, 1):
